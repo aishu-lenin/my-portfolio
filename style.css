@@ -10,8 +10,17 @@ body {
     width: 100%;
     background: 
         linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
-        url("bg.jpg") no-repeat center;
+        url("background.jpg") no-repeat center;
     background-size: cover;
+}
+
+@media (max-width:768px){
+
+    .hero{
+        height:40vh;
+        background-position:center top;
+    }
+
 }
 
 /* Card BELOW image */
