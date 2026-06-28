@@ -348,6 +348,17 @@ html{
     margin:5px 0 0;
 }
 
+.contact-item a{
+    color:#1565C0;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact-item a:hover{
+    color:#7E57C2;
+    text-decoration:underline;
+}
+
 body{
     margin:0;
     font-family:'Poppins',sans-serif;
